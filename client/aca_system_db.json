@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "app": "ACA Platform",
+    "version": "5.15.4",
+    "created_at": "2026-10-02T14:50:39",
+    "updated_at": "2026-10-02T17:44:03"
+  },
+  "settings": {
+    "probation_threshold": 8.9,
+    "team_threshold": 9.3,
+    "homework_penalty": 0.25,
+    "active_user_role": "HOST",
+    "active_student_id": "S20261002145126459610",
+    "language": "en",
+    "moderator_requests": {
+      "gameplay": false,
+      "art": false,
+      "verification": false
+    }
+  },
+  "students": {
+    "S20261002145126459610": {
+      "id": "S20261002145126459610",
+      "name": "Даня",
+      "age": 6,
+      "skill_class": "Unranked",
+      "active_tracks": [
+        "Gameplay",
+        "Decoration"
+      ],
+      "attendance_skips": 0,
+      "homework_skips": 0,
+      "created_at": "2026-10-02T14:51:26",
+      "legacy_import": null,
+      "lesson_records": {
+        "L01": {
+          "grades": [
+            {
+              "grade_id": "25f86d0416c3484d87893210228289eb",
+              "grade": 2.0,
+              "effective_grade": 2.0,
+              "homework_skipped": false,
+              "homework_status": "submitted",
+              "weight_multiplier": 1,
+              "assessment_type": "Class participation / live quizzes",
+              "timestamp": "2026-10-02T17:14:59",
+              "unix_timestamp": 1790950499,
+              "graded_by": "Principal Admin"
+            },
+            {
+              "grade_id": "32cf89d0d1f84ad194f8037bf3eba8bc",
+              "grade": 3.0,
+              "effective_grade": 3.0,
+              "homework_skipped": false,
+              "homework_status": "submitted",
+              "weight_multiplier": 1,
+              "assessment_type": "Class participation / live quizzes",
+              "timestamp": "2026-10-02T17:15:02",
+              "unix_timestamp": 1790950502,
+              "graded_by": "Principal Admin"
+            },
+            {
+              "grade_id": "fc598ab7f7aa4af68c743834ef19d1f9",
+              "grade": 6.0,
+              "effective_grade": 6.0,
+              "homework_skipped": false,
+              "homework_status": "submitted",
+              "weight_multiplier": 1,
+              "assessment_type": "Class participation / live quizzes",
+              "timestamp": "2026-10-02T17:15:06",
+              "unix_timestamp": 1790950506,
+              "graded_by": "Principal Admin"
+            }
+          ],
+          "status": "Passed",
+          "level_id_link": null,
+          "showcase_pipeline_url": null,
+          "timestamp": "2026-10-02T17:15:06"
+        }
+      }
+    }
+  },
+  "accounts": {
+    "U-e623be9dbe6e4fbfa69dee07e1da41dd": {
+      "user_id": "U-e623be9dbe6e4fbfa69dee07e1da41dd",
+      "username": "admin",
+      "display_name": "Principal Admin",
+      "role": "ADMIN",
+      "password": {
+        "salt": "ca215e6bd398c06ed63fa2bd4e1614a6",
+        "digest": "ba9d0a58f68cce883fd96b3d45386815438b191f10c53855877a3794262d3f91",
+        "iterations": 310000,
+        "algorithm": "pbkdf2_hmac_sha256"
+      },
+      "active": true,
+      "created_at": "2026-10-02T14:50:39",
+      "created_timestamp": 1790941839,
+      "last_login_at": "2026-10-02T17:43:48",
+      "last_login_timestamp": 1790952228,
+      "failed_login_count": 0,
+      "student_id": null,
+      "teacher_id": null,
+      "authorized_phases": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "must_change_password": false,
+      "recovery_code": {
+        "salt": "a03a65040de211f543d3fcb6e1f737a5",
+        "digest": "a93dd8e328383ca45d84071530f6df58d4db4dfa849c80e4d57d684566f33c62",
+        "iterations": 310000,
+        "algorithm": "pbkdf2_hmac_sha256"
+      },
+      "recovery_code_created_at": "2026-10-02T14:50:39",
+      "recovery_failed_attempts": 0,
+      "recovery_locked_until": 0,
+      "security_question": "Название крутой",
+      "security_answer": {
+        "salt": "a176525b96042cbcb9c70c99dab97dcc",
+        "digest": "5ebe41c71b8ded49a9b07627daa44564360d22963ec1ad265be10345b7e8136e",
+        "iterations": 310000,
+        "algorithm": "pbkdf2_hmac_sha256"
+      },
+      "security_answer_failed_attempts": 0,
+      "security_answer_locked_until": 0,
+      "system_seeded": true
+    }
+  },
+  "auth_audit": [
+    {
+      "event_id": "7a5c3095c61d4b3c9b7c65aaf3ff7ff0",
+      "user_id": "U-e623be9dbe6e4fbfa69dee07e1da41dd",
+      "action": "SYSTEM_ADMIN_CREATED",
+      "payload": {
+        "username": "admin"
+      },
+      "created_at": "2026-10-02T14:50:39",
+      "unix_timestamp": 1790941839
+    },
+    {
+      "event_id": "25cab67c85cb4bc38a1e3588b8b4fb17",
+      "user_id": "U-e623be9dbe6e4fbfa69dee07e1da41dd",
+      "action": "LOGIN_SUCCESS",
+      "payload": {
+        "username": "admin",
+        "role": "ADMIN"
+      },
+      "created_at": "2026-10-02T14:50:54",
+      "unix_timestamp": 1790941854
+    },
+    {
+      "event_id": "2dc20d7ac7704c20a25223fe67b135a6",
+      "user_id": "U-e623be9dbe6e4fbfa69dee07e1da41dd",
+      "action": "LOGIN_SUCCESS",
+      "payload": {
+        "username": "admin",
+        "role": "ADMIN"
+      },
+      "created_at": "2026-10-02T17:14:22",
+      "unix_timestamp": 1790950462
+    },
+    {
+      "event_id": "1054bbd5231f48ed9755645f47a21829",
+      "user_id": "U-e623be9dbe6e4fbfa69dee07e1da41dd",
+      "action": "LOGIN_SUCCESS",
+      "payload": {
+        "username": "admin",
+        "role": "ADMIN"
+      },
+      "created_at": "2026-10-02T17:14:46",
+      "unix_timestamp": 1790950486
+    },
+    {
+      "event_id": "57e5f1973adc4ebbb1b32aea7b2b1f3e",
+      "user_id": "U-e623be9dbe6e4fbfa69dee07e1da41dd",
+      "action": "LOGIN_SUCCESS",
+      "payload": {
+        "username": "admin",
+        "role": "ADMIN"
+      },
+      "created_at": "2026-10-02T17:15:29",
+      "unix_timestamp": 1790950529
+    },
+    {
+      "event_id": "fb66ca54f56d4bd09292c3eb08431087",
+      "user_id": "U-e623be9dbe6e4fbfa69dee07e1da41dd",
+      "action": "LOGIN_SUCCESS",
+      "payload": {
+        "username": "admin",
+        "role": "ADMIN"
+      },
+      "created_at": "2026-10-02T17:23:41",
+      "unix_timestamp": 1790951021
+    },
+    {
+      "event_id": "e1a148fc43f545169ef3ecc192b5ab8b",
+      "user_id": "U-e623be9dbe6e4fbfa69dee07e1da41dd",
+      "action": "LOGIN_SUCCESS",
+      "payload": {
+        "username": "admin",
+        "role": "ADMIN"
+      },
+      "created_at": "2026-10-02T17:25:11",
+      "unix_timestamp": 1790951111
+    },
+    {
+      "event_id": "08869acf6ad94354832b8a2f4b3c82fe",
+      "user_id": "U-e623be9dbe6e4fbfa69dee07e1da41dd",
+      "action": "LOGIN_SUCCESS",
+      "payload": {
+        "username": "admin",
+        "role": "ADMIN"
+      },
+      "created_at": "2026-10-02T17:43:48",
+      "unix_timestamp": 1790952228
+    }
+  ],
+  "teacher_invites": {},
+  "teacher_sessions": {},
+  "notifications": [
+    {
+      "notification_id": "b7c4a5573ee3412c9feda69439e84470",
+      "student_id": "S20261002145126459610",
+      "message": "Team Alert: Host modified your GPA! Check your stats",
+      "payload": {
+        "lesson_id": "L01",
+        "grade_id": "25f86d0416c3484d87893210228289eb",
+        "score": 2.0,
+        "weight_multiplier": 1
+      },
+      "created_at": "2026-10-02T17:14:59",
+      "unix_timestamp": 1790950499,
+      "read": false
+    },
+    {
+      "notification_id": "c0080541175f4f729c245e0271ff1c88",
+      "student_id": "S20261002145126459610",
+      "message": "Team Alert: Host modified your GPA! Check your stats",
+      "payload": {
+        "lesson_id": "L01",
+        "grade_id": "32cf89d0d1f84ad194f8037bf3eba8bc",
+        "score": 3.0,
+        "weight_multiplier": 1
+      },
+      "created_at": "2026-10-02T17:15:02",
+      "unix_timestamp": 1790950502,
+      "read": false
+    },
+    {
+      "notification_id": "9f9181d25ff6427488d9785aeb185c33",
+      "student_id": "S20261002145126459610",
+      "message": "Team Alert: Host modified your GPA! Check your stats",
+      "payload": {
+        "lesson_id": "L01",
+        "grade_id": "fc598ab7f7aa4af68c743834ef19d1f9",
+        "score": 6.0,
+        "weight_multiplier": 1
+      },
+      "created_at": "2026-10-02T17:15:06",
+      "unix_timestamp": 1790950506,
+      "read": false
+    }
+  ],
+  "audit_log": [
+    {
+      "audit_id": "0f8cbc203ec9436781bf2dfb456166f4",
+      "student_id": "S20261002145126459610",
+      "action": "GRADE_SUBMITTED",
+      "lesson_id": "L01",
+      "payload": {
+        "grade_id": "25f86d0416c3484d87893210228289eb",
+        "score": 2.0,
+        "weight_multiplier": 1,
+        "assessment_type": "Class participation / live quizzes"
+      },
+      "created_at": "2026-10-02T17:14:59",
+      "unix_timestamp": 1790950499
+    },
+    {
+      "audit_id": "36117a40a62b4feea76c147f13adeec4",
+      "student_id": "S20261002145126459610",
+      "action": "GRADE_SUBMITTED",
+      "lesson_id": "L01",
+      "payload": {
+        "grade_id": "32cf89d0d1f84ad194f8037bf3eba8bc",
+        "score": 3.0,
+        "weight_multiplier": 1,
+        "assessment_type": "Class participation / live quizzes"
+      },
+      "created_at": "2026-10-02T17:15:02",
+      "unix_timestamp": 1790950502
+    },
+    {
+      "audit_id": "2f94887242f04c3c879386f02d289296",
+      "student_id": "S20261002145126459610",
+      "action": "GRADE_SUBMITTED",
+      "lesson_id": "L01",
+      "payload": {
+        "grade_id": "fc598ab7f7aa4af68c743834ef19d1f9",
+        "score": 6.0,
+        "weight_multiplier": 1,
+        "assessment_type": "Class participation / live quizzes"
+      },
+      "created_at": "2026-10-02T17:15:06",
+      "unix_timestamp": 1790950506
+    }
+  ],
+  "auth_security": {
+    "system_admin_seed_v1_applied": true,
+    "system_admin_username": "admin",
+    "system_admin_seeded_at": "2026-10-02T14:50:39"
+  }
+}

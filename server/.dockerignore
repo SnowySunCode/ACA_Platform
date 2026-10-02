@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pyo
+*.sqlite3
+*.db
+aca_server_backups/
+.DS_Store
